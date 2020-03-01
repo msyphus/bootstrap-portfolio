@@ -10,8 +10,12 @@
             background-image: url(../y-so-serious-white.png);
         }
 
+        .bg-info {
+            background-color: #4aaaa5!important; /*had to do this to trump Bootstrap's !important*/
+        }
+
         .border-top {
-            border-top: 5px solid #4aaaa5!important; /*had to do this to trump Bootstrap's !important*/
+            border-top: 5px solid #4aaaa5!important; 
         }
 
         h1 {
@@ -27,7 +31,6 @@
         p {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
-
     </style>
 </head>
 <body>
@@ -35,14 +38,14 @@
         <div class="container-fluid">
             <div class="row" style="border-bottom: 3px solid #cccccc;">
                 <div class="col-sm-1"></div>
-                <div class="col-sm-3 bg-info text-white font-weight-bold text-center">
+                <div class="col-sm-3 ml-3 bg-info text-white font-weight-bold text-center">
                     <h1>Mark Syphus</h1>
                 </div>
-                <div class="col-sm-4"></div>
+                <div class="col-sm-3"></div>
                 <div class="col-sm-4">
-                    <ul class="nav nav-pills justify-content-end">
+                    <ul class="nav nav-pills mt-3 justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">About</a>
+                            <a class="nav-link active bg-info" href="#">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="portfolio.html">Portfolio</a>
