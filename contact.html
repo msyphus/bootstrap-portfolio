@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700&display=swap" rel="stylesheet">
+    
+    <title>Mark Syphus Portfolio -- Contact</title>
+</head>
+<body>
+    <div class="container-fluid bg-light">
+        <div class="container-fluid">
+            <div class="row" style="border-bottom: 3px solid #cccccc;">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3 ml-3 bg-info text-white font-weight-bold text-center">
+                    <h1>Mark Syphus</h1>
+                </div>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-4">
+                    <ul class="nav nav-pills mt-3 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bg-info" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto my-3 border" style="background-color: #ffffff;">
+            <div class="row my-1">
+                <div class="col-sm-10 mx-auto">
+                    <div class="row" style="border-bottom: 3px solid #cccccc;">
+                        <h1 class="secTitle">Contact Me</h1>
+                    </div>
+                    <form class="was-validated my-3">
+                        <div class="form-group">
+                            <label for="fullName">Name</label>
+                            <input type="text" class="form-control" placeholder="Please Enter Full Name" id="name" required>
+                            <div class="valid-feedback">Thanks!</div>
+                            <div class="invalid-feedback">Please give me your full name.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" placeholder="Please Enter Full Email Address (address@example.com)" id="email" required>
+                            <div class="valid-feedback">Thanks!</div>
+                            <div class="invalid-feedback">Please give me your email address so I can reply to you.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">What would you like to discuss?</label>
+                            <textarea class="form-control" id="message" required></textarea>
+                            <div class="valid-feedback">Thanks!</div>
+                            <div class="invalid-feedback">Please tell me what you'd like to discuss with me.</div>
+                        </div>
+                        <button type="submit" class="btn btn-info">Let's Chat</button>    
+                    </form>
+                </div>
+            </div>
+        </div>
+            
+        <div class="container-fluid bg-secondary text-center text-white border-top">
+            <footer>Copyright&copy; 2020</footer>
+        </div>
+    </div>
+</body>
+</html>
