@@ -1,5 +1,5 @@
 .bg-light {
-    background-image: url(../y-so-serious-white.png);
+    background-image: url(Images/y-so-serious-white.png);
 }
 
 .bg-info {
@@ -26,4 +26,9 @@ p {
 
 .btn-info {
     background-color: #4aaaa5!important;
+}
+
+.card {
+    width: 310px;
+    height: 330px;
 }
