@@ -1,5 +1,6 @@
 .bg-light {
     background-image: url(Images/y-so-serious-white.png);
+    padding: 0;
 }
 
 .bg-info {
@@ -29,7 +30,7 @@ p {
 }
 
 .card {
-    width: 310px;
+    width: 300px;
     height: 330px;
 }
 
